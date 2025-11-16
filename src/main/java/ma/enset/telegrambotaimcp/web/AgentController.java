@@ -17,8 +17,8 @@ public class AgentController {
     }
 
     @GetMapping(value = "/ask" , produces = MediaType.TEXT_PLAIN_VALUE)
-    public String askAgent(String query) {
-        return this.agent.askAgent(query);
+    public String askAgent(String query, String id) {
+        return this.agent.askAgent(query , id);
     }
 
 
