@@ -1,22 +1,24 @@
+# Telegram AI Agent with Spring AI
 
-# TelegramBot-AI-MCP
-
-This project implements a Telegram bot using AI and the Model-Controller-Presenter (MCP) design pattern. The bot is designed to handle user interactions efficiently while maintaining a clean separation of concerns.
+This project implements an AI-powered Telegram bot using **Spring Boot** and **Spring AI**, integrated with the **Model Context Protocol (MCP)**. The bot leverages MCP to provide AI agents with contextual information and tools, enabling intelligent and context-aware responses to user interactions.
 
 ## Features
 
-- AI-powered responses to user queries.
-- Modular design using the MCP pattern.
-- Easy to extend and maintain.
+- **AI-powered responses** using Spring AI framework
+- **Model Context Protocol (MCP)** integration for enhanced context awareness
+- **Spring Boot** application for easy deployment and configuration
+- **Telegram Bot API** integration for seamless messaging
+- Modular and extensible architecture
+- Easy to configure and maintain
 
-## Project Structure
+## What is MCP?
 
-- **Model**: Handles the data and business logic.
-- **Controller**: Manages the flow of data between the Model and the Presenter.
-- **Presenter**: Formats data for the user interface (Telegram bot).
+The **Model Context Protocol (MCP)** is an open protocol that standardizes how applications provide context to Large Language Models (LLMs). It enables AI agents to access tools, data sources, and contextual information in a structured way, making interactions more intelligent and context-aware.
 
-## Requirements
+## Technology Stack
 
-- Java (or the language used in the project)
-- Telegram Bot API
-- Any additional dependencies (list them here)
+- **Spring Boot** - Application framework
+- **Spring AI** - AI integration framework
+- **Model Context Protocol (MCP)** - Context management for AI
+- **Telegram Bot API** - Messaging platform integration
+- **Java** - Programming language
